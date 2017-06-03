@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_cara_penularan"
+    android:background="#ecf0f1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+    tools:context="com.example.rafi.tbcare.cara_penularan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:src="@drawable/chough"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#3498DB"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="sans-serif"
+        android:textSize="17dp"
+        android:text="Cara Penularan"
+        android:layout_weight="2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="#3498DB"
+        android:text="Batuk atau bersin dari penderita TB"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        android:lineSpacingExtra="2dp"
+        android:text="Kuman akan tersebar melalui udara dalam bentuk percikan ludah lalu masuk kedalam sistem pernafasan manusia. Kuman kemudian menyerang bagian paru-paru, dan dapat menyerang bagian tubuh lain."
+
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="38dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/next"
+            android:id="@+id/btn_selanjutnya"
+            />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/back"
+            android:id="@+id/btn_kembali"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

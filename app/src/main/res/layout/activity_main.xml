@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="#ecf0f1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+    tools:context="com.example.rafi.tbcare.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="239dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/tb"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#3498DB"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="sans-serif"
+        android:textSize="17dp"
+        android:text="Tahukah Anda?"
+        android:layout_weight="2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:paddingBottom="11dp"
+        android:text="      Jumlah kasus Tuberkulosis atau TB di Indonesia berangka 460.000 pada tahun 2013, lalu meningkat drastis menjadi 1 Juta pada tahun 2015, dan terus meningkat."
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:text="      Ini membuat Indonesia menjadi negara dengan kaskus TB terbanyak kedua di Dunia bersama dengan Tiongkok. India berada diurutan pertama dengan presentasi 23% terhadap yang ada di Dunia."
+        android:layout_weight="1"
+        />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="38dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/next"
+            android:id="@+id/btn_selanjutnya"
+            />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
